@@ -5,11 +5,11 @@ function determineGiscusTheme() {
       document.documentElement.getAttribute("data-theme") ||
       "system";
 
-    if (theme === "dark") return "dark";
+    if (theme === "dark") return "blueberry";
     if (theme === "light") return "light";
 
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return prefersDark ? "dark" : "light";
+    return prefersDark ? "blueberry" : "light";
   
 }
 
