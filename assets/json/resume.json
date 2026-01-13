@@ -194,11 +194,7 @@
     },
     {
       "name": "Neural Data Analysis",
-      "keywords": [
-        "Calcium imaging",
-        "Neuropixels",
-        "DTI"
-      ]
+      "keywords": ["Calcium imaging", "Neuropixels", "DTI"]
     }
   ],
   "meta": {

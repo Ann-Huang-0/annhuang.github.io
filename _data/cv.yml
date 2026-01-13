@@ -24,7 +24,6 @@
         # - Cumulative GPA: 4.00 / 4.00
         # - Graduated with Dean’s Honours List & First Class Honours
 
-
 - title: Research Experience
   type: time_table
   contents:
@@ -45,7 +44,7 @@
         - Supervised by Blake Richards
         - Built deep RL agents to study time encoding in the brain
         - Investigated how task-relevant information acquired during pretraining can be compressed into a prior over initial weights for RNNs
-      
+
     - title: Visiting Researcher, Mathis Lab
       institution: EPFL, Geneva, Switzerland
       year: 2022.06 – 2023.05

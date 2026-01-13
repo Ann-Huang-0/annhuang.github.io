@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ann
-middle_name: 
+middle_name:
 last_name: Huang
 contact_note: >
   Best way to reach me is by email: annhuang@g.harvard.edu.
@@ -226,7 +226,6 @@ scholar:
   details_dir: _bibliography/details
   details_layout: bibtex.html
   query: "@*"
-
 
 # Sitemap settings
 defaults:
@@ -632,7 +631,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
