@@ -1,97 +1,66 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Ann Huang
+    - name: Location
+      value: Cambridge, MA, USA
+    - name: Email
+      value: annhuang@g.harvard.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Neuroscience
+      institution: Harvard University
+      year: 2023.08 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Supervised by Kanaka Rajan
+    - title: Bachelor of Science
+      institution: McGill University
+      year: 2019.09 – 2023.05
       description:
-        - Description 1.
-        - Description 2.
+        - Honours Neuroscience; Minor in Mathematics and Computer Science
+        # - Cumulative GPA: 4.00 / 4.00
+        # - Graduated with Dean’s Honours List & First Class Honours
 
-- title: Experience
+
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Researcher, Rajan Lab
+      institution: Harvard, Cambridge, MA, USA
+      year: 2024.03 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Supervised by Kanaka Rajan
+        # - Build theoretical frameworks and tools to characterize, interpret, and constrain the solution space of task-trained RNNs
+        # - Develop data-driven methods for identifying and comparing input-driven dynamical systems, with applications to RL agents and neural dynamics
+        # - Empirical and theoretical analysis of learning dynamics in RL agents
+        # - Modeling interacting dynamical systems to identify cross-system coupling and transformations (ongoing)
+
+    - title: Research Assistant, Richards Lab
+      institution: McGill & Mila, Montreal, QC, Canada
+      year: 2021.09 – 2024.06
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Supervised by Blake Richards
+        - Built deep RL agents to study time encoding in the brain
+        - Investigated how task-relevant information acquired during pretraining can be compressed into a prior over initial weights for RNNs
+      
+    - title: Visiting Researcher, Mathis Lab
+      institution: EPFL, Geneva, Switzerland
+      year: 2022.06 – 2023.05
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Supervised by Alexander Mathis
+        - Built bio-inspired hierarchical RL models for musculoskeletal motor control
+        # - Contributed to large-scale RL experiments evaluating latent-space exploration strategies in the context of musculoskeletal motor control tasks
+    - title: Research Assistant, Gershman Lab
+      institution: Harvard, Cambridge, MA, USA
+      year: 2021.09 – 2022.06
+      description:
+        - Supervised by Sam Gershman
+        - Modeling action chunking as a consequence of policy compression under resource rationality
+    - title: Research Assistant, Brandon Lab
+      institution: McGill, Montreal, QC, Canada
+      year: 2019.11 – 2021.05
+      description:
+        - Long-term stability of spatial context representations in the hippocampus despite neural drift

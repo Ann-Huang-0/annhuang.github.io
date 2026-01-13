@@ -1,0 +1,17 @@
+/* Publication cover size */
+.publication .preview img,
+.bib-entry .preview img {
+  width: 300px;      /* try 120–200px */
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+}
+a {
+    color: #ffa500;       /* <-- change me */
+  }
+  
+  a:hover,
+  a:focus {
+    color: #ffa500;       /* <-- change me */
+    text-decoration: underline;
+  }

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="albums-page">
+  <div class="albums-header">
+    <div>
+      <h1 class="albums-title">{{ page.title }}</h1>
+      {% assign n = site.data.albums | size %}
+      <p class="albums-subtitle">
+        A noncomprehensive list of alblums I've been enjoying a lot!
+      </p>
+    </div>
+
+    <!-- optional icon (no functionality) -->
+    <div class="albums-icon" aria-hidden="true">⤮</div>
+  </div>
+
+  <div class="albums-grid">
+    {% for a in site.data.albums %}
+      <a class="album-card" href="{{ a.apple }}" target="_blank" rel="noopener">
+        <div class="album-cover">
+          <img src="{{ a.cover | relative_url }}" alt="Cover for {{ a.title }} by {{ a.artist }}" loading="lazy">
+        </div>
+        <div class="album-meta">
+          <div class="album-title">{{ a.title }}</div>
+          <div class="album-artist">{{ a.artist }}</div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
