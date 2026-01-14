@@ -32,6 +32,6 @@ Neural computation is better understood as an equivalence class of dynamical mec
 
 <!-- I graduated from McGill University in May 2023 with a major in Neuroscience and a double minor in Mathematics and Computer Science. As an undergraduate, I had the amazing oppotunity of working with Blake Richards and Mark Brandon at McGill, Alexander Mathis at EPFL, and Sam Gershman at Harvard. These awesome mentors have deeply influenced my path into research. -->
 
-Outside research, I enjoy skiing, hiking, climbing, reading, travelling, listening to rock musics and attending concerts.
+Outside research, I enjoy skiing, hiking, climbing, reading, travelling, listening to rock music and attending concerts.
 
 I'm always happy to chat about research and life, brainstorm, and collaborate. Reach me at [annhuang@g.harvard.edu](mailto:annhuang@g.harvard.edu). If you are an undergrad seeking advice on grad school applications, navigating research opportunities, or figuring out whether a PhD is right for you, feel free to drop me an email too.
